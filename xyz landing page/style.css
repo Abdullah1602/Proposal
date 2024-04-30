@@ -1,0 +1,560 @@
+.indicator {
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+
+.container-slide{
+    margin: 66px 0 0 0;
+}
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 80%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            -khtml-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+/* Pricing cards css */
+
+    .pricing-content{position:relative;}
+    .pricing_design{
+        position: relative;
+        margin: 0px 15px;
+    }
+    .pricing_design .single-pricing{
+        background:#005450;
+        padding: 60px 40px;
+        border-radius:30px;
+        box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
+        position: relative;
+        z-index: 1;
+    }
+    .pricing_design .single-pricing:before{
+        content: "";
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        border-radius: 18px 18px 190px 18px;
+        border: 1px solid #eee;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+    
+    .price-head h2 {
+        margin-bottom: 20px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .price-head h1 {
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+    
+    .single-pricing ul{list-style:none;margin-top: 30px;}
+    .single-pricing ul li {
+        line-height: 36px;
+    }
+    .single-pricing ul li i {
+        background: #005450;
+        color: #fff;
+        width: 20px;
+        height: 20px;
+        border-radius: 30px;
+        font-size: 11px;
+        text-align: center;
+        line-height: 20px;
+        margin-right: 6px;
+    }
+    
+    .price_btn {
+        background: #005450;
+        margin-left: -27px;
+        padding: 10px 16px;
+        color: #fff;
+        display: inline-block;
+        margin-top: 20px;
+        border-radius: 2px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        text-decoration: none;
+    }
+    
+    .section-title {
+        margin-bottom: 60px;
+    }
+    .text-center {
+        text-align: center!important;
+    }
+    
+    .section-title h2 {
+        font-size: 45px;
+        font-weight: 600;
+        margin-top: 55px;
+        font-family: fangsong;
+        position: relative;
+        text-transform: capitalize;
+    }
+    @media screen and (min-width: 2560px) {
+
+        body {
+        font-size: 34px;
+        }
+    }
+
+    @media screen and (max-width: 1440px){
+        .navbar{
+            width:111.5%;
+        }
+        .h1-style{
+            font-size: 56px;
+        }
+        .p-style{
+            font-size: 19px;
+            margin: 0 0 0 13px
+        }
+        .btn-primary{
+            padding: 8px 36px 50px 14px;
+            margin: 53px 0px 0 0px;
+            height: 59px; font-size: 19px;
+        }
+        .span1{
+            font-size: 10px;
+            bottom: 5px;
+            left: 12%;
+            margin-top: 10px;
+        }
+        .img-button{
+            width: 12px;
+            margin-left: 5px;
+        }
+        .p-0{
+            margin-left: 47px;
+        }
+        .girl{
+            max-width: 100%;
+        }
+    }
+    @media screen and (max-width: 1024px) {
+        
+        .navbar {
+            width:111.5%;
+            margin: 0 0 0 15px;
+        }
+        .h1-style{
+            font-size: 37px;
+        }
+        .p-style{
+            font-size: 14px;
+            margin: 0 0 0 33px
+        }
+        .hello-img{
+            margin: 22px 0 0 0;
+        }
+        .card{
+            margin: 16px 0 0 0;
+        }
+        .btn-primary{
+            padding: 8px 36px 50px 14px;
+            margin: 53px 0px 0 0px;
+            height: 59px; font-size: 19px;
+        }
+        .span1{
+            font-size: 10px;
+            bottom: 5px;
+            left: 12%;
+            margin-top: 10px;
+        }
+        .p-0{
+            margin-left: 47px;
+        }
+        .img-button{
+            width: 12px;
+            margin-left: 5px;
+        }
+        .girl{
+            max-width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .navbar {
+            width:111.5%;
+            margin: 0 0 0 33px;
+        }
+        .girl{
+            max-width: 100%;
+        }
+        .h1-style {
+            font-size: 30px;
+        }
+        .p-style{
+            font-size: 12px;
+            margin: 0 0 0 33px
+        }
+        .btn-primary {
+            padding: 8px 20px;
+            margin: 5px 0;
+            height: auto;
+            font-size: 16px;
+        }
+        .span1{
+            font-size: 9px;
+            bottom: -1px;
+            left: 15%;
+            
+        }
+        .img-button{
+            width: 12px;
+            margin-left: 5px;
+        }
+        
+
+        .hello-man{
+            margin: 57px 0 0 0;
+        }
+
+        .p-0{
+            margin-left: 30px;
+        }
+        .card{
+            margin: 16px 0 0 0;
+        } 
+        .single-pricing{
+            margin: 16px 0 0 0;
+        }
+        .img-fluid{
+            padding: 0px 9px 0 172px;
+            margin: 4px 0px 0 -86px;
+        }
+        .pp-1{
+            margin: 18px 0 0 30px;
+        } 
+        .Unlimited{
+            margin-left: 30px;
+        }
+        .container{
+            margin-left: 35px;
+        }
+    }
+    @media only screen and (max-device-width: 425px) {
+        .navbar {
+            width: 117.5%;
+            margin: 0 0 0 33px;
+        }
+        .girl{
+            max-width: 111%;
+            margin: 0px 2px 1px 1px;
+        }
+        .h1-style {
+            margin: 0 0 0 15px;
+            font-size: 20px;
+        }
+        .p-style{
+            font-size: 8px;
+            margin: 0 0 0 46px;
+        }
+        .pic-1{
+            margin:25px 0 0 0;
+        }
+        .btn-primary {
+            padding: 8px 20px;
+            margin: 5px 0;
+            height: auto;
+            font-size: 16px;
+        }
+        .span1{
+            font-size: 9px;
+            bottom: -1px;
+            left: 15%;
+            
+        }
+        .img-button{
+            width: 12px;
+            margin-left: 5px;
+        }
+        .container-fluid{
+            padding: 3px 22px 0;
+            margin: 0 0px 0 27px;
+        }
+        
+
+        .hello-man{
+            margin: 57px 0 0 0;
+        }
+
+        .p-0{
+            margin-left:25px;
+        }
+        .discover-1{
+            width: 289px;
+        }
+        .card{
+            margin: 16px 0 0 0;
+        } 
+        .single-pricing{
+            margin: 16px 0 0 0;
+        }
+        .img-fluid{
+            padding: 0px 9px 0 172px;
+            margin: 4px 0px 0 -86px;
+        }
+        .pp-1{
+            margin: 18px 0 0 30px;
+        } 
+        .Unlimited{
+            margin-left: 30px;
+        }
+        
+    }
+    @media only screen and (max-device-width: 375px) {
+        .navbar {
+            width: 134.5%;
+            margin: 0 0 0 33px;
+        }
+        .girl{
+            max-width:126%;
+            margin: 0px 2px 1px 1px;
+        }
+        .h1-style {
+            margin: 0 0 0 22px;
+            font-size: 19px;
+        }
+        .p-style{
+            font-size: 8px;
+            margin: 0 0 0 46px;
+        }
+        .pic-1{
+            margin:25px 0 0 0;
+        }
+        .btn-primary {
+            padding: 8px 20px;
+            margin: 5px 0;
+            height: auto;
+            font-size: 16px;
+        }
+        .span1{
+            font-size: 9px;
+            bottom: -1px;
+            left: 15%;
+            
+        }
+        .img-button{
+            width: 12px;
+            margin-left: 5px;
+        }
+        .container-fluid{
+            padding: 3px 22px 0;
+            margin: 0 0px 0 27px;
+        }
+        
+
+        .hello-man{
+            margin: 57px 0 0 0;
+        }
+
+        .p-0{
+            margin-left:25px;
+        }
+        .discover-1{
+            width: 289px;
+        }
+        .card{
+            margin: 16px 0 0 0;
+        } 
+        .single-pricing{
+            margin: 16px 0 0 0;
+        }
+        .img-fluid{
+            padding: 0px 9px 0 172px;
+            margin: 4px 0px 0 -86px;
+        }
+        .pp-1{
+            margin: 18px 0 0 30px;
+        } 
+        .Unlimited{
+            margin-left: 30px;
+        }
+        
+    }
+    @media only screen and (max-device-width: 320px) {
+        .navbar {
+            width: 160.5%;
+            margin: 0 0 0 33px;
+        }
+        .girl{
+            max-width:149%;
+            margin: 0px 2px 1px 1px;
+        }
+        .h1-style {
+            margin: 0 0 0 20px;
+            font-size: 16px;
+        }
+        .p-style{
+            font-size: 7px;
+            margin: 0 0 0 46px;
+        }
+        .pic-1{
+            margin:25px 0 0 0;
+        }
+        .btn-primary {
+            padding: 8px 20px;
+            margin: 5px 0;
+            height: auto;
+            font-size: 16px;
+        }
+        .span1{
+            font-size: 9px;
+            bottom: -1px;
+            left: 15%;
+            
+        }
+        .img-button{
+            width: 12px;
+            margin-left: 5px;
+        }
+        .container-fluid{
+            padding: 3px 22px 0;
+            margin: 0 0px 0 27px;
+        }
+        
+
+        .hello-man{
+            margin: 57px 0 0 0;
+        }
+
+        .p-0{
+            margin-left:25px;
+        }
+        .discover-1{
+            width: 289px;
+        }
+        .card{
+            margin: 16px 0 0 0;
+        } 
+        .single-pricing{
+            margin: 16px 0 0 0;
+        }
+        .img-fluid{
+            padding: 0px 9px 0 172px;
+            margin: 4px 0px 0 -86px;
+        }
+        .pp-1{
+            margin: 18px 0 0 30px;
+        } 
+        .Unlimited{
+            margin-left: 30px;
+        }
+        
+    }
